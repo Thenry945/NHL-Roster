@@ -1,0 +1,9 @@
+<div *ngIf = 'status'>{{title}}</div>
+<div class="display players">
+    <div *ngFor = 'let lst of iplayers'> 
+        <ul> 
+            <li>{{lst.PlayerName}} : {{lst.PlayerNumber}}</li> 
+            <img [src] = 'lst.PlayerPictureURL'>
+        </ul> 
+    </div> 
+</div>

@@ -1,0 +1,13 @@
+[
+    {
+        "PlayerNumber":91,
+        "PlayerName":"Vladimir Tarasenko",
+        "PlayerPictureURL":"app/Images/VladimirTarasenko.jpg"
+    },
+    {
+        "PlayerNumber":55,
+        "PlayerName":"Colton Parayko",
+        "PlayerPictureURL":"app/Images/ColtonParayko.jpg"
+
+    }
+]

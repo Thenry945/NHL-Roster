@@ -1,0 +1,10 @@
+<div class="display">
+    <a class="btn" (click) = "onBack()">Home Team</a>
+    <div *ngFor = 'let lst of iteams'> 
+        <ul> 
+            <li>{{lst.TeamName}} : {{lst.YearEstablished}}</li> 
+            <img [src] = 'lst.LogoURL'>
+            <team-players></team-players>
+        </ul> 
+    </div> 
+</div> 
