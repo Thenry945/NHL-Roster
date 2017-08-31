@@ -1,7 +1,8 @@
 {
-  "name": "angular-quickstart",
+  "name": "nhl-roster",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "main": "index.js",
+  "description": "Team showings",
   "scripts": {
     "build": "tsc -p src/",
     "build:watch": "tsc -p src/ -w",
